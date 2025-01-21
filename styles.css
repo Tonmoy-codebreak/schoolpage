@@ -2,3 +2,101 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* Part 1 : Navpanel CSS */
+.header{
+    margin: 0px 141px;
+}
+
+.navpanel{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+
+
+.logotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+
+.logotext  h2 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.navoption{
+    display: flex;
+    align-items: center;
+}
+
+
+.navoption ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+.navoption ul li {
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.li1{
+    color: rgb(254, 163, 1);
+}
+
+.li2{
+    color: rgb(1, 172, 253);
+}
+
+.li3{
+    color: rgb(5, 212, 223);
+}
+
+.li4{
+    color: rgb(93, 88, 239);
+}
+
+
+
+
+
+.firstbtn{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.navbtn{
+    width: 197px;
+height: 50px;
+border-radius: 12px;
+border: 0px solid;
+background: rgb(254, 163, 1);
+}
+
+
+.navbtn a{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+
+text-decoration: none;
+}
