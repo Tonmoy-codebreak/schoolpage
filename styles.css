@@ -114,37 +114,84 @@ hr{
     display: none;
 }
 /* Part 2 Banner ------------------------ */
+.banner{
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.bannertxt{
+    margin: 122px 0px;
+    max-width: 640px;
+    max-height: 331px;
+    padding-right: 50px;
+    
+    
+
+}
 
 .bannertxt h1{
     font-family: Quicksand;
-font-size: 56px;
+font-size: 3.5rem;
 font-weight: 700;
 line-height: 61px;
 letter-spacing: 0%;
 text-align: left;
+max-height: 183px;
+
+}
+
+.bannertxt p{
+    color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+padding: 24px 0px;
 }
 
 
+.bannerbtn{
+    width: 197px;
+height: 50px;
+border-radius: 12px;
+border: 0px solid;
+background: rgb(17, 17, 17);
 
+}
 
-
+.bannerbtn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
 
 
 @media screen and (max-width:576px){
 
-    /* .header{
+    .header{
         margin: 0px 16px;
-        padding: 12px;
+        /* padding: 12px; */
 
         
-    } */
+    }
     .navpanel{
         margin: 0px 16px;
         /* padding: 12px; */
         display: flex;
         justify-content: space-between;
         /* border: 1px solid red; */
-        
+        border-bottom: 2px solid rgba(254, 161, 1, 0.492);
     }
 
     .logotext h2{
@@ -168,10 +215,82 @@ text-align: left;
 height: 46px;
     }
 
-    hr{
+    /* hr{
         display: block;
         height: 1px;
         border: none;
         background-color: #FEA301;
+    } */
+
+
+    /* RESPONSIVE BANNER--------------------- */
+
+    .banner{
+            flex-direction: column-reverse;
+            margin: 0px;
+            padding: 0px;
     }
+
+    .bannerimg img{
+            width: 500px;
+            height: 587px;
+            /* margin: 0px 16px; */
+            margin-top: 28px;
+            
+    }
+
+    .bannertxt{
+        padding: 0px 17px;
+        margin: 0px;
+    }
+    .bannertxt h1{
+        font-family: Quicksand;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .bannertxt p{
+        text-align: center;
+        padding: 0px;
+    }
+
+    .btndiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerbtn{
+        margin-top: 18px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
