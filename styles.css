@@ -100,3 +100,78 @@ text-align: center;
 
 text-decoration: none;
 }
+
+.menubar{
+
+width: 30px;
+height: 30px;
+
+display: none;
+
+}
+
+hr{
+    display: none;
+}
+/* Part 2 Banner ------------------------ */
+
+.bannertxt h1{
+    font-family: Quicksand;
+font-size: 56px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+
+    /* .header{
+        margin: 0px 16px;
+        padding: 12px;
+
+        
+    } */
+    .navpanel{
+        margin: 0px 16px;
+        /* padding: 12px; */
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+        
+    }
+
+    .logotext h2{
+        display: none;
+    }
+
+    .navoption{
+        display: none;
+    }
+
+    .navbtn{
+        display: none;
+    }
+
+    .menubar{
+        display: block;
+    }
+    
+    .logotext img{
+        width: 46px;
+height: 46px;
+    }
+
+    hr{
+        display: block;
+        height: 1px;
+        border: none;
+        background-color: #FEA301;
+    }
+}
